@@ -50,9 +50,9 @@ client.on('message', message => {
 		console.log(args);
 		message.channel.send('Hala ' + args[0]);
 	}
-	else if (command === 'whosYourDaddy') {
+	else if (command === 'whosyourdaddy') {
 		console.log(args);
-		message.channel.send('BuFai7an');
+		message.channel.send('BuFai7an' + ':blush:');
 	}
 	else if (command === 'addstreamer') {
 		if(!message.member.hasPermission('ADMINISTRATOR')) return;
